@@ -84,15 +84,26 @@ Ví dụ thao tác tiêu biểu:
 
 ---
 
-## 4. Kết luận
+## 4. So sánh PIL và OpenCV
+
+| Tiêu chí     | PIL (Pillow)     | OpenCV (cv2)      |
+| ------------ | ---------------- | ----------------- |
+| Mục đích     | Xử lý ảnh cơ bản | Thị giác máy tính |
+| Độ khó       | Dễ học           | Khó hơn           |
+| Kiểu dữ liệu | `PIL.Image`      | `NumPy array`     |
+| Hệ màu       | RGB              | BGR               |
+| Hiệu năng    | Trung bình       | Cao               |
+
+---
+
+## 5. Kết luận
 
 * **PIL** phù hợp cho người mới học và các bài toán xử lý ảnh đơn giản.
 * **OpenCV** phù hợp cho các ứng dụng nâng cao, yêu cầu hiệu năng và xử lý chuyên sâu.
 * Hai notebook giúp người học thấy rõ **sự khác biệt giữa tư duy xử lý ảnh mức cao (PIL)** và **mức thấp (OpenCV)**.
-
 ---
 
-## 5. Phần câu hỏi (Questions)
+## 6. Phần câu hỏi (Questions)
 
 ### **Bài 1 – PIL**
 
